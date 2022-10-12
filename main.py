@@ -26,7 +26,7 @@ def is_prime(n):  # допоміжна функція для перевірки 
     while i <= sqrt(n):
         if n % i == 0:
             return False
-        i = i + 2
+        i += 2
     return True
 
 
